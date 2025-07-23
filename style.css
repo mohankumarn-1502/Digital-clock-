@@ -1,0 +1,25 @@
+body{
+    margin:0%;
+    background-image: url(https://ik.imagekit.io/9jskk4vct8/mern_basics/pexels-pixabay-326333.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#clock-cointainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#clock{
+    text-align: center;
+    color: white;
+    font-size: 6.5rem;
+    font-family: monospace;
+    font-weight: 400;
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    width:100%;
+    background-color: hsla(0, 0%, 100%,.1);
+}
